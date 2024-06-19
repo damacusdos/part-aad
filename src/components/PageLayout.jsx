@@ -3,12 +3,12 @@
  * Licensed under the MIT License.
  */
 
-import React from 'react';
-import Navbar from 'react-bootstrap/Navbar';
+import React from "react";
+import Navbar from "react-bootstrap/Navbar";
 
-import { useIsAuthenticated } from '@azure/msal-react';
-import { SignInButton } from './SignInButton';
-import { SignOutButton } from './SignOutButton';
+import { useIsAuthenticated } from "@azure/msal-react";
+import { SignInButton } from "./SignInButton";
+import { SignOutButton } from "./SignOutButton";
 
 /**
  * Renders the navbar component with a sign-in or sign-out button depending on whether or not a user is authenticated
@@ -28,7 +28,7 @@ export const PageLayout = (props) => {
                 </div>
             </Navbar>
             <h5>
-                <center>Welcome to the Microsoft Authentication Library For Javascript - React Quickstart</center>
+                <center>Giant Part Lib AAD Test App</center>
             </h5>
             <br />
             <br />

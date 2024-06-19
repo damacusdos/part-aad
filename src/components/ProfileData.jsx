@@ -12,7 +12,9 @@ export const ProfileData = (props) => {
             </p>
             <p>
                 <strong>Custom Security Attributes: </strong>
-                {`${Object.keys(props.graphData.customSecurityAttributes)}`}
+                {props.graphData.customSecurityAttributes
+                    ? `${Object.keys(props.graphData.customSecurityAttributes)}`
+                    : "--"}
             </p>
         </div>
     );
